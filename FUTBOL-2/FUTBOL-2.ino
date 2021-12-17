@@ -41,41 +41,33 @@ void loop() {
     delay(100);
     digitalWrite(ledPin, LOW);
   }
-/*
+
   switch (state) {
   case 82:
     motorA('R');
     motorB('L');
-    delay(250);
-    motorB('O');
-    motorA('O');
     break;
   case 76:
     motorA('L');
     motorB('R');
-    delay(250);
-    motorB('O');
-    motorA('O');
     break;
   case 70:
     motorA('R');
     motorB('R');
-    delay(250);
-    motorB('O');
-    motorA('O');
     break;
   case 66:
     motorA('L');
     motorB('L');
-    delay(250);
-    motorB('O');
-    motorA('O');
+    break;
+  case 90:
+    motorA('0');
+    motorB('0');
     break;
   default:
     // statements
     break;
   }
-  */
+  
   state=0;
 /*
   motorA('R');// Turn motor A to RIGHT
